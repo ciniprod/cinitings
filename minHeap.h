@@ -2,8 +2,6 @@
 #include <cstring>
 
 using namespace std;
-const int SIZE = 1000000;
-const int MAX_DIST = 100000000;
 
 struct Edge{
     string destination;

@@ -51,3 +51,7 @@ void MinHeap::build_heap(){
     }
 }
 
+
+MinHeap::~MinHeap(){
+    delete []  heap;
+}

@@ -1,4 +1,3 @@
-#include "minHeap.h"
 #include "Graph.h"
 #include <fstream>
 #include <iostream>
@@ -37,10 +36,6 @@ int main(int argc, char* argv[]){
 
         graph.add_edge(start, end, weight);
     }
-
-    string start_node;
-    cout << "Enter start node: ";
-    cin >> start_node;
 
     graph.dijkstra(start_node);
 
